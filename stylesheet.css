@@ -1,0 +1,272 @@
+url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cuadro{
+    width: 100vw;
+    height: 100vh; 
+    background-color: #00554E;
+    color: azure;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.logo {
+  margin-top: -7px;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.menu li {
+  list-style: none;
+
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px; 
+}
+
+.principal {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+
+.principal2 {
+  width: 90vw;
+  height: 100vh;
+  display: grid;
+  margin: 1em;
+}
+
+
+.cuadro2{
+    width: 100vw;
+    height: 165vh;
+    gap: 3em;
+    margin: 3em;
+}
+
+.cuadro3{
+    width: 100vw;
+    height: 60vh;
+    margin: auto;
+    background-color: #00554E;
+    color: azure;
+
+}
+
+.principal3 {
+  margin: auto;
+  width: 90vw;
+  height: 80vh;
+  margin: 4em;
+}
+
+.principal4 {
+  width: 90vw;
+  height: 300vh;
+  margin: 4em;
+}
+
+.cuadro4{
+    width: 100vw;
+    height: 240vh;
+
+}
+
+.cuadro5{
+    width: 100vw;
+    height: 80vh;
+    background-color: #00554E;
+    color: azure;
+
+}
+
+.principal5 {
+  margin: auto;
+  width: 90vw;
+  height: 90vh;
+  margin: 4em;
+}
+
+.principal6 {
+  margin: auto;
+  width: 90vw;
+  height: 110vh;
+  margin: 4em;
+}
+
+.cuadro6{
+    width: 100vw;
+    height: 120vh;
+}
+
+.principal7 {
+  margin: auto;
+  width: 90vw;
+  height: 570vh;
+  margin: 4em;
+}
+
+.cuadro7{
+    width: 100vw;
+    height: 570vh;
+}
+
+.cuadro8{
+    width: 100vw;
+    height: 150vh;
+    margin: auto;
+    background-color: #00554E;
+    color: azure;
+}
+
+.principal8 {
+  margin: auto;
+  width: 90vw;
+  height: 150vh;
+  margin: 4em;
+}
+
+.principal9 {
+  width: 90vw;
+  height: 90vh;
+  margin: 1em;
+}
+
+
+.cuadro9{
+    width: 100vw;
+    height: 90vh;
+    margin: 3em;
+}
+
+.cuadro10{
+    width: 100vw;
+    height: 70vh;
+    margin: auto;
+    background-color: #00554E;
+    color: azure;
+}
+
+.principal10 {
+  margin: auto;
+  width: 100vw;
+  height: 70vh;
+  margin: 4em;
+}
+
+h2 {
+  font-size: 2em;
+  align-items: left;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+  align-items: left;
+}
+
+h4 {
+  font-size: 1.5em;
+  align-items: left;
+
+}
+
+.img1 {
+    
+    width: 50%;
+    padding-left: 10em;
+
+    padding-bottom: 2em;
+}
+
+.img2 {
+    
+    width: 60%;
+    padding-left: 10em;
+
+    padding-bottom: 2em;
+}
+
+img {
+    
+    width: 50%;
+    padding-left: 18em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.contenido span {
+  color: #9fbfbc;
+}
+
+.about {
+  display: grid;
+  width: 100vw;
+  align-items: center;
+}
+
+.about-info h2 {
+  font-size: 2em;
+  color: #00554E;
+    
+}.linea {
+  height: 4px;
+  width: 80px;
+  background-color: #9fbfbc;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  padding: 2em;
+  background-color: #9fbfbc;
+  text-align: center;
+}
+
+.footer-content h2 {
+  font-size: 3em;
+  font-size: 3em;
+  color:#00554E;
+  
+}
+
+.footer-content h5 {
+  font-size: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+  text-align: center;
+  color: #00554E;
+
+}
